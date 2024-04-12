@@ -1,0 +1,26 @@
+{
+    "timeZone": "Europe/Istanbul",
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Calendar",
+          "version": "v3",
+          "serviceId": "calendar"
+        },
+        {
+          "userSymbol": "Gmail",
+          "version": "v1",
+          "serviceId": "gmail"
+        }
+        
+      ]
+      
+    },
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/gmail.modify",
+      "https://www.googleapis.com/auth/calendar"
+    ],
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
